@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html class="dark" lang="it">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MERCURIO Nautica – Cantiere & Officina Meccanica Navale Artigianale</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#D4AF37", // Oro/Ottone
+                        "background-light": "#f0f2f5", // Crema chiara
+                        "background-dark": "#0A192F", // Blu Profondo/Navy
+                        "text-light": "#e0e0e0",
+                        "card-dark": "#172A46",
+                        "border-dark": "#2a3f5a",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            font-size: 24px;
+        }
+        .logo-header {
+            width: 48px; 
+            height: 48px;
+            object-fit: contain;
+        }
+        /* Nasconde la scrollbar in Chrome/Safari/Opera */
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        /* Nasconde la scrollbar in IE/Edge/Firefox */
+        .scrollbar-hide {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-[#111418] dark:text-text-light">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-transparent dark:border-border-dark">
+<div class="flex items-center p-4">
+    <div class="flex size-12 shrink-0 items-center justify-start">
+        <img class="logo-header" src="uploaded:1000089515.png" alt="MERCURIO Nautica Logo"/>
+    </div>
+    <h2 class="text-[#111418] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">MERCURIO.Nautica</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="text-[#111418] dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main>
+<section class="@container" id="hero">
+<div class="@[480px]:p-4">
+    <div class="flex min-h-[calc(100vh-80px)] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" data-alt="Magnifico porto di Porto Ercole" style='background-image: linear-gradient(rgba(10, 25, 47, 0.5) 0%, rgba(10, 25, 47, 0.8) 100%), url("uploaded:1000098118.jpg-bf36f5e1-ef18-4ec3-b968-09d10dfb23ac");'>
+<div class="flex flex-col gap-2 text-center max-w-2xl">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                                MERCURIO.Nautica – Cantiere & Officina Meccanica Navale Artigianale
+                            </h1>
+<h2 class="text-text-light text-lg font-normal leading-normal @[480px]:text-xl @[480px]:font-normal @[480px]:leading-normal">
+                                Assistenza & vendita specializzata per la vostra imbarcazione.
+                            </h2>
+</div>
+<div class="flex-wrap gap-3 flex justify-center">
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-background-dark text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:brightness-110 transition-all duration-200" href="#servizi">
+<span class="truncate">Servizi</span>
+</a>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-transparent border border-primary text-primary text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-white/10 transition-all duration-200" href="#contatti">
+<span class="truncate">Contatti</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-16 md:py-24" id="chi-siamo">
+    <div class="container mx-auto px-4">
+        <h1 class="text-[#111418] dark:text-white tracking-light text-3xl font-bold leading-tight text-center max-w-3xl mx-auto md:text-4xl mb-8">
+            Dal nostro design la vostra idea prende forma & solca le onde.
+        </h1>
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-gray-700 dark:text-text-light text-lg mb-4">
+                MERCURIO.Nautica nasce dall'unione di una profonda passione per il mare e una maestria artigianale tramandata. Operiamo nel cuore della Maremma Toscana, nel rinomato porto di Porto Ercole, offrendo servizi meccanici e di cantiere navale che elevano l'esperienza di navigazione a un'arte.
+            </p>
+            <p class="text-gray-700 dark:text-text-light text-lg italic">
+                Non siamo solo un'officina: siamo custodi della tradizione nautica, con uno sguardo costante verso l'innovazione tecnologica.
+            </p>
+            <p class="text-gray-700 dark:text-text-light text-base mt-4">
+                Ogni intervento, dal refitting degli interni alla manutenzione complessa dei motori, è eseguito con la massima cura e precisione per garantire sicurezza, performance e un'estetica ineccepibile alla vostra imbarcazione.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white dark:bg-card-dark py-16 md:py-24" id="servizi">
+<div class="container mx-auto px-4">
+<h2 class="text-[#111418] dark:text-primary text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-8 text-center md:text-3xl">I Nostri Servizi</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4">
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-border-dark bg-background-light dark:bg-background-dark p-6 flex-col items-start text-left">
+<div class="text-primary"><span class="material-symbols-outlined">settings_suggest</span></div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111418] dark:text-white text-base font-bold leading-tight">Manutenzione e sostituzione motori marini</h2>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-border-dark bg-background-light dark:bg-background-dark p-6 flex-col items-start text-left">
+<div class="text-primary"><span class="material-symbols-outlined">electrical_services</span></div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111418] dark:text-white text-base font-bold leading-tight">Impiantistica & elettronica di bordo</h2>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-border-dark bg-background-light dark:bg-background-dark p-6 flex-col items-start text-left">
+<div class="text-primary"><span class="material-symbols-outlined">format_paint</span></div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111418] dark:text-white text-base font-bold leading-tight">Trattamento carene & riparazione scafi</h2>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-border-dark bg-background-light dark:bg-background-dark p-6 flex-col items-start text-left">
+<div class="text-primary"><span class="material-symbols-outlined">bed</span></div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111418] dark:text-white text-base font-bold leading-tight">Refitting navale di esterni & interni</h2>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-border-dark bg-background-light dark:bg-background-dark p-6 flex-col items-start text-left">
+<div class="text-primary"><span class="material-symbols-outlined">shopping_cart</span></div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111418] dark:text-white text-base font-bold leading-tight">Shop nautico e ricambi</h2>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-border-dark bg-background-light dark:bg-background-dark p-6 flex-col items-start text-left">
+<div class="text-primary"><span class="material-symbols-outlined">sailing</span></div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111418] dark:text-white text-base font-bold leading-tight">Vendita & noleggio imbarcazioni</h2>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-border-dark bg-background-light dark:bg-background-dark p-6 flex-col items-start text-left">
+<div class="text-primary"><span class="material-symbols-outlined">design_services</span></div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111418] dark:text-white text-base font-bold leading-tight">Natanti personalizzati</h2>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-16 md:py-24 bg-background-light dark:bg-background-dark" id="progetti">
+    <div class="container mx-auto px-4">
+        <h2 class="text-[#111418] dark:text-primary text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-8 text-center md:text-3xl">
+            Progetti Personalizzati
+        </h2>
+        <h3 class="text-[#111418] dark:text-white text-2xl font-bold leading-tight text-center max-w-3xl mx-auto mb-10">
+            Dal nostro design, la vostra idea prende forma & solca le onde.
+        </h3>
+        
+        <div class="flex overflow-x-auto gap-4 py-4 md:py-8 snap-x snap-mandatory scrollbar-hide">
+            
+            <div class="flex-shrink-0 w-80 md:w-96 snap-start">
+                <img src="uploaded:1000092974.jpg" 
+                     alt="Yacht di lusso in navigazione, esempio di refitting." 
+                     class="w-full h-auto rounded-xl shadow-lg border-2 border-primary/50 object-cover aspect-[4/3] transition duration-300 hover:scale-[1.02]"/>
+            </div>
+            
+            <div class="flex-shrink-0 w-80 md:w-96 snap-start">
+                <img src="uploaded:1000004539.png" 
+                     alt="Gommone personalizzato nero e beige, design moderno." 
+                     class="w-full h-auto rounded-xl shadow-lg border-2 border-primary/50 object-cover aspect-[4/3] transition duration-300 hover:scale-[1.02]"/>
+            </div>
+            
+            <div class="flex-shrink-0 w-80 md:w-96 snap-start">
+                <img src="uploaded:1000089928.jpg" 
+                     alt="Barca sportiva con supporto per canne da pesca." 
+                     class="w-full h-auto rounded-xl shadow-lg border-2 border-primary/50 object-cover aspect-[4/3] transition duration-300 hover:scale-[1.02]"/>
+            </div>
+            
+            <div class="flex-shrink-0 w-80 md:w-96 snap-start">
+                <img src="uploaded:1000089942.jpg" 
+                     alt="Barca con dettagli colorati, esempio di personalizzazione esterna." 
+                     class="w-full h-auto rounded-xl shadow-lg border-2 border-primary/50 object-cover aspect-[4/3] transition duration-300 hover:scale-[1.02]"/>
+            </div>
+            
+        </div>
+        </div>
+</section>
+
+<section class="py-16 md:py-24" id="contatti">
+<div class="container mx-auto px-4">
+<h2 class="text-[#111418] dark:text-primary text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-8 text-center md:text-3xl">Mettiti in Contatto</h2>
+<div class="max-w-lg mx-auto grid grid-cols-1 gap-8">
+<div class="flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-card-dark border border-primary dark:border-border-dark">
+<div class="text-primary flex-shrink-0"><span class="material-symbols-outlined">location_on</span></div>
+<div class="flex flex-col">
+<h3 class="text-[#111418] dark:text-white text-base font-bold leading-tight">Indirizzo</h3>
+<p class="text-gray-600 dark:text-text-light text-sm">Lungomare Marinai d’Italia 5, 58018 Porto Ercole (GR)</p>
+</div>
+</div>
+<div class="flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-card-dark border border-primary dark:border-border-dark">
+<div class="text-primary flex-shrink-0"><span class="material-symbols-outlined">call</span></div>
+<div class="flex flex-col">
+<h3 class="text-[#111418] dark:text-white text-base font-bold leading-tight">WhatsApp</h3>
+<a class="text-primary text-sm hover:underline" href="https://wa.me/390552053536" target="_blank">+39 0552053536</a>
+</div>
+</div>
+<div class="flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-card-dark border border-primary dark:border-border-dark">
+<div class="text-primary flex-shrink-0"><span class="material-symbols-outlined">email</span></div>
+<div class="flex flex-col">
+<h3 class="text-[#111418] dark:text-white text-base font-bold leading-tight">Email</h3>
+<a class="text-primary text-sm hover:underline" href="mailto:mercurio.ecomm@gmail.com">mercurio.ecomm@gmail.com</a>
+</div>
+</div>
+<div class="flex items-center gap-4 p-4 rounded-xl bg-white dark:bg-card-dark border border-primary dark:border-border-dark">
+<div class="text-primary flex-shrink-0"><span class="material-symbols-outlined">business_center</span></div>
+<div class="flex flex-col">
+<h3 class="text-[#111418] dark:text-white text-base font-bold leading-tight">P.IVA</h3>
+<p class="text-gray-600 dark:text-text-light text-sm">00085020535</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+</body>
+</html>
